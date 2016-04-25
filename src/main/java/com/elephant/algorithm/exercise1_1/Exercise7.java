@@ -18,7 +18,7 @@ public class Exercise7 {
 		for (int i = 0; i < 1000; i++)
 			for (int j = 0; j < i; j++)
 				sum++;
-		System.out.println("ggg"+sum);
+		System.out.println("ggg" + sum);
 	}
 
 	static void h() {
@@ -26,7 +26,7 @@ public class Exercise7 {
 		for (int i = 0; i < 1000; i *= 2)
 			for (int j = 0; j < 1000; j++)
 				sum1++;
-		System.out.println("hhh"+sum1);
+		System.out.println("hhh" + sum1);
 	}
 
 	public static void main(String[] args) {

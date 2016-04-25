@@ -25,12 +25,12 @@ public class Exercise11 {
 
 		for (int i = 0; i < array.length; i++) {
 			print();
-			printnb(i + ": "+"\t");
+			printnb(i + ": " + "\t");
 			for (int j = 0; j < array[i].length; j++) {
 				if (array[i][j] == true)
 					printnb("*" + "\t");
 				else
-					printnb(" "+"\t");
+					printnb(" " + "\t");
 			}
 		}
 	}
