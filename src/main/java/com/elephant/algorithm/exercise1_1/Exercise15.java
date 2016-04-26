@@ -23,7 +23,7 @@ public class Exercise15 {
 			printnb(a[i] + "\t");
 		print();
 		print("res.length = " + res.length);
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < res.length; i++)
 			printnb(res[i] + "\t");
 	}
 }
